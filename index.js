@@ -18,7 +18,7 @@ const fs = require('fs');
 
 //table of contents clickable - ok
 
-const genREADME = ({title, desc, install, use, license, contributers, test, github, githubLink, email}) =>
+const genREADME = ({title, desc, install, use, license, contributers, test, github, githubLink, email, badge}) =>
 `# ${title} #
 
 ## Description ##
